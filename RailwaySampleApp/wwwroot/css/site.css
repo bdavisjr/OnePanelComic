@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.box {
+    margin: 2rem;
+    width: 550px;
+    height: 550px;
+    background-image: url(/img/pilotcomic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid white;
+    border-color: white;    
+}
+
+.box2 {
+    width: 650px;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+h1 {
+    font-family: 'Bangers', Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.evenboxinner {
+    transform: rotate(2deg);
+    margin: 15px;
+    padding: 0 5px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+    font-family: 'Bangers', Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.myedit {
+    margin: 2rem;
+}
